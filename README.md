@@ -2,7 +2,8 @@
 
 ## Link
 
-* Website: [https://RWA-Wallet.com](https://RWA-Wallet.com)
+* [Website RWA-Wallet.com](https://RWA-Wallet.com)
+* [Video Demo on Loom](https://www.loom.com/share/23050742280c400ba98258e47bce36df)
 
 ## Intro
 
