@@ -181,7 +181,7 @@ const doCancel = async () => {
     <div class="bg-white flex flex-col min-w-sm w-full">
       <div class="flex-1 py-6 px-4 overflow-y-auto sm:px-6">
         <div class="flex items-start justify-between">
-          <h2 class="font-medium text-lg text-gray-900">RWA Intent Preview: Create NFTFi Twitter</h2>
+          <h2 class="font-medium text-lg text-gray-900">RWA Intent Preview: Create TwitterFi NFT</h2>
         </div>
 
         <div class="mt-8">

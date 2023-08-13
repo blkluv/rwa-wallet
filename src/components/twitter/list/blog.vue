@@ -1,33 +1,27 @@
 <script setup lang="ts">
-import { getDateString } from '~/composables/misc'
-import { isSameAddress } from '~/composables/web3'
+import { getDateString } from "~/composables/misc";
+import { isSameAddress } from "~/composables/web3";
 
 const route = useRoute();
 const tokenId = $computed(() => route.params.tokenId);
-let isLoading = $ref(true)
-let account = $(inject('account'))
-let items = $ref([])
+let isLoading = $ref(true);
+let account = $(inject("account"));
+let items = $ref([]);
 
 const categoryLink = (post) => `/options/category/${kebabCase(post.category)}`;
 const postLink = (post, index) => `/options/twitter/${tokenId}/${index}-${kebabCase(post.title)}`;
-const { nft } = $(nftStore())
+const { nft } = $(nftStore());
 
 watchEffect(async () => {
-  if (!account) return
-  const itemURIArr = await readContract(
-    { account, contractName: "RWAProtocol", functionName: 'getItems' },
-    tokenId,
-    0,
-    100,
-    ''
-  );
+  if (!account) return;
+  const itemURIArr = await readContract({ account, contractName: "RWAProtocol", functionName: "getItems" }, tokenId, 0, 100, "");
   items = await Promise.all(itemURIArr.map(parseURIData));
   isLoading = false;
 });
 </script>
 
 <template>
-  <div class="bg-white py-24 sm:py-32">
+  <div class="bg-white py-12 sm:py-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto text-center max-w-2xl">
         <h2 class="font-bold tracking-tight text-3xl text-gray-900 sm:text-4xl">NFT Holder Only Content</h2>

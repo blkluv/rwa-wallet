@@ -1,12 +1,34 @@
 # TwitterFi NFT Factory
 
+## Link
+
+* Website: [https://RWA-Wallet.com](https://RWA-Wallet.com)
+* Video: (TBD)
+* Blockchain Deployment:
+
 ## Intro
 
 TwitterFi NFT Factory is a decentralized social application built in the RWA Wallet Platform. It helps Twitter KoL to tokenize its social impact. 
 
 Simply treat it as composed of Friend.tech + Unlock Protocol, and build in a Browser extension so it can inject specific blocks on the Twitter Web page.
 
+<img src="./1.png" width="800" />
+
 ## How it's Made
+
+Our hackathon project is an innovative exploration of NFT and RWA technologies.
+
+We've designed our platform to be user-friendly.
+
+Content and Images are stored through IPFS / Arweave depending on the user's selection.
+
+We use the super Arseeding and Everpay SDK that provide users to store content on the Arweave.
+
+Our contracts are deployed on Optimism, Base, and Polygon Mumbai.
+
+We have a plan to ensure the smooth implementation and integration of these technologies. This project is an exciting opportunity to explore the potential of these technologies and we're eager to see how it evolves.
+
+<img src="./2.png" width="800" />
 
 ## Features
 
@@ -27,6 +49,8 @@ Simply treat it as composed of Friend.tech + Unlock Protocol, and build in a Bro
   * Can mint OTP SBT to unlock the NFT-gating content
 * [WIP] Anyone can comment on other user's Twitter with NFT-Gating content(Gas Free but on Twitter only)
 * [WIP] RWA-NFT.com for landing page the while user that not yet install the RWA-Wallet click on the RWA profile/item link
+
+<img src="./3.png" width="800" />
 
 ## Tech we use
 

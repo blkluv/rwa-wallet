@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { iconComponentMap } from '~/constants/icons'
+import { iconComponentMap } from "~/constants/icons";
 
 const { nft } = $(nftStore());
 
-const links = $computed(() => get(nft, 'token.properties.links', []))
+const links = $computed(() => get(nft, "token.properties.links", []));
 </script>
 <template>
   <footer class="bg-white">
-    <div class="mx-auto max-w-7xl py-20 px-6 overflow-hidden sm:py-24 lg:px-8">
+    <div class="mx-auto max-w-7xl py-10 px-6 overflow-hidden sm:py-12 lg:px-8">
       <!-- <nav class="-mb-6 sm:flex columns-2 sm:space-x-12 sm:justify-center" aria-label="Footer">
         <div v-for="item in navigation.main" :key="item.name" class="pb-6">
           <a :href="item.href" class="text-sm text-gray-600 leading-6 hover:text-gray-900">{{ item.name }}</a>

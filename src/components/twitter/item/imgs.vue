@@ -1,14 +1,17 @@
 <script setup lang="ts">
-const { item, params } = $(itemStore())
+const { item, params } = $(itemStore());
 const tags = $computed(() => {
-  if (!item.tags) return ''
-  return item.tags.split(',').map(v => trim(v)).join(',')
-})
+  if (!item.tags) return "";
+  return item.tags
+    .split(",")
+    .map((v) => trim(v))
+    .join(",");
+});
 
-const shareLink = $computed(() => `https://rwa-nft.com/twitter/${params.tokenId}/${params.itemId}-${kebabCase(item.title)}`)
+const shareLink = $computed(() => `https://rwa-nft.com/twitter/${params.tokenId}/${params.itemId}-${kebabCase(item.title)}`);
 const twitterShareLink = $computed(() => {
-  return `https://twitter.com/intent/tweet?text=Share my RWA: ${item.title} @HelloRWA  &url=${shareLink}&hashtags=${tags}`
-})
+  return `https://twitter.com/intent/tweet?text=Share my RWA: ${item.title} @HelloRWA  &url=${shareLink}&hashtags=${tags}`;
+});
 </script>
 
 <template>
