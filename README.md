@@ -5,6 +5,12 @@
 * [Website RWA-Wallet.com](https://RWA-Wallet.com)
 * [Video Demo on Loom](https://www.loom.com/share/23050742280c400ba98258e47bce36df)
 
+## Tech on track
+
+* Arseeding to store data and image to arweave while create new TwitterFi NFT
+* Everpay to show a dashboard data of current wallet's everpay data
+* db3.js to store the metadata and social link data for the TwitterFi NFT, so owner can update their without pay gas to blockchain (we save the docId onto the NFT's metadata)
+
 ## Intro
 
 TwitterFi NFT Factory is a decentralized social application built in the RWA Wallet Platform. It helps Twitter KoL to tokenize its social impact. 
