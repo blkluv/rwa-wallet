@@ -3,8 +3,6 @@
 ## Link
 
 * Website: [https://RWA-Wallet.com](https://RWA-Wallet.com)
-* Video: (TBD)
-* Blockchain Deployment:
 
 ## Intro
 
