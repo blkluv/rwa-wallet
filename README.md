@@ -5,6 +5,7 @@
 * [Website RWA-Wallet.com](https://RWA-Wallet.com)
 * [Video Demo on Loom](https://www.loom.com/share/23050742280c400ba98258e47bce36df)
 * [Download the beta wallet](https://download.rwa-wallet.com), pls install the chrome extension via [developer mode](https://bashvlas.com/blog/install-chrome-extension-in-developer-mode/)
+* [all screenshots](./screenshots)
 
 ## Tech on track
 
